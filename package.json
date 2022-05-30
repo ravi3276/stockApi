@@ -1,0 +1,20 @@
+{
+  "name": "stockapi",
+  "version": "1.0.0",
+  "description": "## Data: Example of a trade data JSON object: ``` {     \"id\":1,     \"type\": \"buy\",     \"user_id\": 23,     \"symbol\": \"ABX\",     \"shares\": 30,     \"price\": 134,     \"timestamp\": 1531522701000 } ```",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  }
+}
